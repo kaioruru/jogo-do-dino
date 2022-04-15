@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body {
+  max-width: 1200px;
+  background-color: #fcfcfc;
+}
+
+.el_dino {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  -webkit-animation: animaçao_dino 0.5s infinite linear;
+          animation: animaçao_dino 0.5s infinite linear;
+}
+
+@-webkit-keyframes animaçao_dino {
+  0% {
+    background-image: url(img/dinoanimaçao1.png);
+  }
+  100% {
+    background-image: url(img/dinoanimaçao2.png);
+  }
+}
+
+@keyframes animaçao_dino {
+  0% {
+    background-image: url(img/dinoanimaçao1.png);
+  }
+  100% {
+    background-image: url(img/dinoanimaçao2.png);
+  }
+}
+
+.caquitus {
+  width: 60px;
+  height: 60px;
+  background-image: url(img/cactus.png);
+  position: absolute;
+  bottom: 0;
+}
+
+.perdeu {
+  color: #4e4e4e;
+  text-align: center;
+  text-shadow: 1px 1px  2px black;
+}
+
+.backgraund {
+  width: 100%;
+  height: 200px;
+  background-image: url(img/backgroun.png);
+  background-repeat: repeat-x;
+  position: absolute;
+  bottom: 0;
+  -webkit-animation: animaçao 600s infinite linear;
+          animation: animaçao 600s infinite linear;
+}
+
+@-webkit-keyframes animaçao {
+  0% {
+    background-position: 7000%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+
+@keyframes animaçao {
+  0% {
+    background-position: 7000%;
+  }
+  100% {
+    background-position: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

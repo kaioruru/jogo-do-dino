@@ -1,0 +1,50 @@
+body{
+    max-width: 1200px;
+    background-color: rgb(252, 252, 252);
+}
+
+.el_dino{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    animation: animaçao_dino 0.5s infinite linear;
+    
+}
+@keyframes animaçao_dino{
+    0%{
+        background-image: url(img/dinoanimaçao1.png);
+    }
+    100%{
+        background-image: url(img/dinoanimaçao2.png);
+    }
+}
+.caquitus{
+    width: 60px;
+    height: 60px;
+    background-image: url(img/cactus.png);
+    position: absolute;
+    bottom: 0;
+}
+.perdeu{
+    color: rgb(78, 78, 78);
+    text-align: center;
+    text-shadow: 1px 1px  2px black;
+}
+.backgraund{
+    width: 100%;
+    height: 200px;
+    background-image: url(img/backgroun.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0;
+    animation: animaçao 600s infinite linear;
+}
+@keyframes animaçao{
+    0%{
+        background-position: 7000%;
+    }
+    100%{
+        background-position: 0;
+    }
+}
